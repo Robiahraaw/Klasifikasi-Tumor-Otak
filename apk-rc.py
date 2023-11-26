@@ -16,7 +16,7 @@ with open('rc_model.pkl', 'rb') as rc_file:
 st.title('Klasifikasi Tingkat Tumor Otak')
 
 # Input form for new data
-st.write('Klasifikasi Tingkat Tumor Otak ini akan menghasilkan dua kelas, yaitu Tumor Otak Ganas dan Tumor Otak Jinak. Proses klasifikasi ini melibatkan kriteria umum dan mutasi genetik. Tugas prediksi di sini adalah untuk menentukan apakah seorang pasien mengalami Tumor Otak Jinak atau Tumor Otak Ganas berdasarkan kriteria umum dan kriteria mutasi genetik yang diberikan. Tujuan utamanya adalah menghimpun kriteria umum dan kriteria mutasi genetik untuk meningkatkan kinerja prediksi dan mengurangi biaya yang diperlukan.')
+st.write('Klasifikasi Tingkat Tumor Otak ini akan menghasilkan dua kelas, yaitu Tumor Otak Ganas dan Tumor Otak Jinak. Proses klasifikasi ini melibatkan kriteria umum dan mutasi genetik. Tujuan utamanya adalah menghimpun kriteria umum dan kriteria mutasi genetik untuk meningkatkan kinerja prediksi dan mengurangi biaya yang diperlukan.')
 st.write('Form pengisian dibawah ini memiliki 23 kriteria yang harus diisi yaitu : 3 kriteria umum (gender, usia, dan ras) dan 20 kriteria mutasi genetik (20 kriteria mutasi genetik didapat saat pasien telah melalui tes genetik molekuler).')
 st.write('Sebelum mengisi form dibawah, diharapkan anda telah membaca deskripsi data yang harus diisikan pada setiap form, agar aplikasi dapat melakukan prediksi dengan optimal.')
 # Create a button to trigger the modal
